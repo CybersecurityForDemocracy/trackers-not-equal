@@ -1,0 +1,187 @@
+Text,Third Party,Location,Code
+We hash the customer information on the website before they're sent to Meta technologies to help protect user privacy.,Meta,"Documentation, page 1",Hidden Costs
+"Businesses (including event data sources they own, such as the Meta Pixel) may not
+have certain features available to them if they’re categorized as being in a restricted vertical.
+If you see a message in Meta Events Manager that says you’re unable to use automatic
+advanced matching, this may be because your business is categorized as being in a restricted
+vertical. Examples of restricted verticals include industries such as banking, lending, financial
+services, insurance, pharmaceuticals and health. Automatic advanced matching may also be
+unavailable if your pixel is set up in an iframe or if you're using an IMG pixel. Businesses in
+restricted verticals can set up advanced matching manually instead.",Meta,"Documentation, page 1",Hidden Costs
+"For automatic advanced matching to work on your website, make sure:
+1. Your website has sources such as form fields that ask for the information you'd like
+to set up through automatic advanced matching. For example, email address, phone
+number, first name, last name, city, state, country, ZIP code and gender.
+2. The Meta Pixel is placed on web pages where people are most likely to enter the
+relevant information.",Meta,"Documentation, page 2",Least Private Recommendations
+[ Steps to complete before you use automatic advanced matching for your website ] 5. Your business isn't in a restricted vertical.,Meta,"Documentation, page 2",Hidden Costs
+"Businesses (including event data sources they own, such as the Meta Pixel) may not
+have certain features available to them if they’re categorized as being in a restricted vertical.
+If you see a message in Meta Events Manager that says you’re unable to use automatic
+advanced matching, this may be because your business is categorized as being in a restricted
+vertical. Examples of restricted verticals include industries such as banking, lending, financial
+services, insurance, pharmaceuticals and health. Automatic advanced matching may also be
+unavailable if you use an IMG pixel, if your pixel is in an iframe or if you haven’t updated to
+Facebook SDK version 5.8.0 or later. These businesses can set up advanced matching
+manually instead",Meta,"Documentation, page 2",Hidden Costs
+"Toggle ON the parameters you want to share from your website or app. We suggest
+selecting at least Email and Phone number for the best results.",Meta,"Documentation, page 2",Least Private Recommendations
+"Use both manual and automatic advanced matching if possible: Because manual and
+automatic advanced matching work in different ways, this helps you achieve
+maximum performance from advanced matching. The manual version involves coding
+so you may need help from a developer. Learn how to set up advanced matching
+manually. If you don't have the resources to set up advanced matching manually, you
+may still benefit from using automatic advanced matching alone.",Meta,"Documentation, page 3",Least Private Recommendations
+"Set up advanced matching manually if your business is in a restricted vertical:
+Businesses (including event data sources they own, such as the Meta Pixel) may not
+have certain features available to them if they’re categorized as being in a restricted
+vertical. If you see a message in Meta Events Manager that says you’re unable to use
+automatic advanced matching, this may be because your business is categorized as
+being in a restricted vertical. Examples of restricted verticals include industries such
+as banking, lending, financial services, insurance, pharmaceuticals and health. Learn
+how to set up advanced matching manually",Meta,"Documentation, page 3",Hidden Costs
+"Set up advanced matching manually on websites where users often remain logged in
+for extended periods: Automatic advanced matching doesn’t know who a person is
+unless they take an action, such as filling out a form or logging into your website. If
+you have a website where people remain logged in, instead of logging in each time
+they visit, set up advanced matching manually. Manual setup allows us to receive
+hashed customer information, regardless of if someone recently logged into the
+website.",Meta,"Documentation, page 3",Least Private Recommendations
+"When using automatic advanced matching, make sure your website contains form
+fields where visitors enter relevant information: For example, email address, phone
+number, first name, last name, city, state, country, ZIP code or gender.",Meta,"Documentation, page 3",Least Private Recommendations
+"When using automatic advanced matching, place the Meta Pixel on web pages where
+people are most likely to enter relevant information",Meta,"Documentation, page 3",Least Private Recommendations
+"Limited Data Use is a data processing option that gives you more control over how your data is used in
+Meta’s systems and better supports your compliance eﬀorts with various US state privacy regulations. To
+utilize this feature, you must proactively enable Limited Data Use. When Meta receives data with Limited
+Data Use enabled from people in the states where Limited Data Use applies, we will process that data in
+accordance with our role as a service provider or processor, as applicable, and limit the use of that data as
+specified in our State-Specific Terms.",Meta,"Documentation, page 6",Least Private Defaults
+[ Automatic Advanced Matching included in pixel setup flow ],Meta,"Screenshot, page 6",Hidden Costs
+[ All customer information auto-selected with Automatic Advanced Matching turned on ],Meta,"Screenshot, page 7",Least Private Defaults
+This information will be hashed to better protect user privacy before it is sent to Facebook,Meta,"Screenshot, page 7",Hidden Costs
+,,,
+"ou have the option to enable or disable enhanced measurement . Enhanced
+measurement automatically collects page views and other events. Once the data
+stream has been created, you can always go back and individually disable the
+enhanced measurement events you don’t want to collect. So, we recommend that
+you enable enhanced measurement now.",Google,"Documentation, page 1",Least Private Recommendations
+"Google interprets PII to exclude, for example:
+•pseudonymous cookie IDs
+•pseudonymous advertising IDs
+•IP addresses
+•other pseudonymous end user identifiers",Google,"Documentation, page 2",Hidden Costs
+"The more items you complete on the checklist, the more complete your GA4 data will be.",Google,"Documentation, page 3",Least Private Recommendations
+"Many configurations determine what data is collected in your property, so it will only be available from when you complete them. That's why it's valuable to do them as soon as possible.",Google,"Documentation, page 3",Loss Aversion
+"To protect user privacy, Google policies mandate that no data be passed to Google that Google
+could use or recognize as personally identifiable information (PII). PII includes, but is not limited
+to, information such as email addresses, personal mobile numbers, and social security
+numbers.",Google,"Documentation, page 4",Contradictory Langauge
+"Website visitors and users sometimes enter PII into search boxes and form fields. Be sure to
+remove PII from user-entered information before it is sent to Analytics.",Google,"Documentation, page 4",Contradictory Langauge
+"Special care should be taken to ensure no PII such as names, social security numbers, email
+addresses, or any similar personal identifiers, or data that permanently identifies a particular
+device such as a mobile phone’s unique device identifier (if such an identifier cannot be reset)
+is sent to Analytics when using these following features:",Google,"Documentation, page 4",Contradictory Langauge
+"When collection is disabled, city-level location data as well as certain device-level metadata is redacted prior to collection in Google Analytics’ servers.",Google,"Documentation, page 7",Hidden Costs
+"Google policies mandate that no data be passed to Google that Google could use or recognize as
+personally identi able information (PII). Here are some best practices to avoid sending PII.",Google,"Documentation, page 9",Contradictory Langauge
+"Before setting up enhanced conversions for leads, you’ll need to identify your website lead
+forms and pick a field from the form that uniquely identifies your leads. At least one of the
+following variables must be provided when you configure enhanced conversions for leads on
+your website and when you later import the conversions:
+•Email (preferred)
+•A phone number",Google,"Documentation, page 13",Least Private Recommendations
+"Google tags and the SDK use cookies and app instance IDs, respectively, to measure user
+interaction. While these identifiers provide information about user behavior, Google prohibits
+customers from sending Personally Identifiable Information to Google Analytics. Even so, use of
+cookies and app IDs falls under the privacy laws mentioned previously. Google customers need
+to inform users about the information being stored and give them the opportunity to grant or
+deny their consent.",Google,"Documentation, page 14",Contradictory Langauge
+"Our contracts prohibit customers from sending Personally Identifiable Information to
+Google Analytics. Customers should follow these Best Practices to ensure PII is not sent to
+Google Analytics.",Google,"Documentation, page 14",Contradictory Langauge
+"You have the option to enable/disable the collection of granular
+location-and-device data on a per-region basis. Analytics collects
+this data by default. If you disable this data collection, Analytics
+does not collect the following data:",Google,"Documentation, page 15",Least Private Defaults
+"Please remember that to protect user privacy, Google Analytics
+policies and terms mandate that no data be passed to Google that
+Google could recognize as personally identifiable information (PII),
+and no data you collect using Google Analytics may reveal any
+sensitive information about a user, or identify them. If you need to
+delete data from the Analytics servers for any reason, you can
+schedule a data-deletion request or use the User Deletion API.",Google,"Documentation, page 16",Contradictory Langauge
+"Note: This data sharing option is not available to Analytics accounts
+with properties in the “Health” and “Finance” property industry
+categories. You can see your property industry category by going to
+Admin > Property > Property details.",Google,"Documentation, page 17",Hidden Costs
+Privacy safe with hashing of first-party customer data,Google,"Documentation, page 18",Hidden Costs
+"You have the option to enable/disable the collection of granular
+location-and-device data on a per-region basis. Analytics collects
+this data by default. If you disable this data collection, Analytics
+does not collect the following data:",Google,"Documentation, page 19",Least Private Defaults
+"If you would only like to provide one field, we recommend sending email; however, the address
+and phone fields can also be helpful in improving the likelihood of matches.",Google,"Documentation, page 26",Least Private Recommendations
+"Before turning on the enhanced measurement feature, be sure you understand each option and
+what enhanced data will be collected. You can also turn off specific measurement options in
+settings.
+You're required to ensure that no personally identifiable information is collected.",Google,"Documentation, page 31",Contradictory Langauge
+"If you use the Google tag on your website, you also need to make sure that each event is
+enabled for automatic event detection for your Google tag. By default, all event types are
+enabled.",Google,"Documentation, page 31",Least Private Defaults
+"form_start': the first time a user
+interacts with a form in a session
+'form_submit': when the user submits a
+form
+You can use these two events to see how
+many users started to fill out a form and
+compare the information to users who
+submitted the form.
+Note: You can only use the parameters in
+your reports if you create custom
+dimensions for them.",Google,"Documentation, page 31",Hidden Costs
+"You have the option to enable/disable the collection of granular location-and-device data on a
+per-region basis. Analytics collects this data by default. If you disable this feature, then
+Analytics does not collect the following data:",Google,"Documentation, page 32",Least Private Defaults
+"To start measuring website and ads performance, you need to add the Google tag on every
+page of your website.",Google,"Documentation, page 33",Least Private Recommendations
+"Ensure the fields you need like email, address, and phone number are available on the
+conversion page where the Google Ads event snippet fires. This will likely be the case on
+conversion pages for purchases, sign-ups, and other similar conversion types, which often
+require customer data. If you're unsure which page this is, you should contact your
+developer.
+Note: At least one of the following fields must be provided:
+•Email (preferred)
+•Address (first name, last name, postal code, and country are required). You can optionally
+provide street address, city, and region as additional match keys.
+•A phone number can also be provided along with an email or full name and address",Google,"Documentation, page 34",Least Private Recommendations
+"Identify any customer data that's displayed on the page that you wish to send to
+Google. As an example, your page may display a thank you message and include a
+customer email address after a purchase.
+Note: At least one of the following fields must be provided for enhanced conversions to work
+properly:
+•Email (preferred)
+•Full name and address (first name, last name, street address, city, region, postal code,
+country)
+•[Optional] A phone number can also be provided along with an email or full name and
+address (but not by itself)",Google,"Documentation, page 34",Least Private Recommendations
+"Before you configure the Google tag settings, make sure you set up your Google tag on every
+page on your website.",Google,"Documentation, page 37",Least Private Recommendations
+"Select which types of events your Google tag should automatically detect for
+measurement in associated destinations. By default, all event types are turned on.",Google,"Documentation, page 37",Least Private Defaults
+"Form interactions: Detect a form interaction or form submission event each time a
+visitor interacts with a form on your site",Google,"Documentation, page 37",Hidden Costs
+"Choose how you want to include user-provided data. User-provided data will be
+hashed to keep it private and then sent along to your destination products that are
+configured to receive it with other event data. You can enable one or
+more configuration options:
+a. Automatic detection: Automatically inspect the page for strings that match a
+pattern for email addresses.",Google,"Documentation, page 37",Hidden Costs
+"[ ""Form interactions"" enhanced measurment turned on by default ]",Google,"Screenshot, page 8",Least Private Defaults
+Data from on-page elements such as links and embedded videos may be collected with relevant events. You must ensure that no personally-identifiable information will be sent to Google.,Google,"Screenshot, page 9",Contradictory Langauge
+Data surfaced by this feature will be hashed to keep it private and will only be sent to accounts for which you've indicated you want to include user-provided data.,Google,"Screenshot, page 12",Hidden Costs
+"[""Automatically detect user-provided data"" automatically selected]",Google,"Screenshot, page 12",Least Private Defaults
+"[ All events selected on ""Manage automatic event detection"" ]",Google,"Screenshot, page 16",Least Private Defaults
+"[ ""Granular location and device data collection"" turned on by default ]",Google,"Screenshot, page 21",Least Private Defaults

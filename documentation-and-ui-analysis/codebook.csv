@@ -1,0 +1,6 @@
+Code, Description
+Hidden Risk, A feature is presented in such a way that a web administrator can reasonably believe they are presented with all the relevant information to make an informed choice when in reality additional privacy-related risks are hidden
+Least Private Defaults, Default configurations set by the third party that maximize data collection
+Least Private Recommendations, Instances where third-party documentation has explicit recommendations or best practices that maximize data collection
+Loss Aversion, Language that creates the perception that a web administrator would be missing out on opportunities or not getting the full offering of a certain feature by not making data maximization decisions
+Contradictory Language, Instances where third party guidance appears to be in contradiction to the underlying mechanisms of the data collection feature

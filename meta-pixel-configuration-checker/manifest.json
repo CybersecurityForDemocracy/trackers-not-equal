@@ -1,0 +1,21 @@
+{
+    "name": "Meta Pixel Config Checker",
+    "description": "Evaluates Configuration of Meta Pixel Config",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["scripting"],
+    "content_scripts": [
+        {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content-script.js"],
+        "run_at": "document_idle"
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
+  
