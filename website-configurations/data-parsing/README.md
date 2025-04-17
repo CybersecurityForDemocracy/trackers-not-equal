@@ -23,7 +23,7 @@ The scripts have been tested in Python3.8. You can install the dependencies by r
 pip install -r requirements.txt
 ```
 
-Note that if you are using a Mac with a new chip, you may need the binary version of the psycopg2 package. If you hit an error running with psycopg2, you can switch versions by running additionally:
+Note that, at the time of writing, the psycopg2 package does not appear to be compatible with M-series (ARM) Mac chips. In this case, you can use the binary version of the psycopg2 package. If you hit an error running with psycopg2, you can switch versions by running:
 
 ```
 pip uninstall psycopg2
@@ -51,7 +51,7 @@ This means that if you have data collected through different dates you should ru
 
 ### Testing on a subset of our data.
 
-You can test the parser on a small subset of our full dataset. You can download the dataset [here](https://nyu.app.box.com/s/u3oapbdcppqz1fxjax5k4v6h5z8tvvyb). Make sure you extract it and place the extracted folder in the same directory with the `data_parser.py` script. Then, you can run:
+You can test the parser on a small subset of our full dataset. You can download the dataset [here](https://zenodo.org/records/15220279). Make sure you extract it and place the extracted folder in the same directory with the `data_parser.py` script. Then, you can run:
 
 ```
 python data_parser.py --path 9-21-2024

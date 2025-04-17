@@ -4,14 +4,27 @@ In this folder, we include the tools used for data collection. All data collecti
 ## VM Tooling
 This directory contains:
 
-1) `data_collection_script_linux.py`, the python script the VM used to coordinate data collection. It is responsible for fetching a subset of websites to visit and opening Chrome with the custom extensions (in `extensions/`) installed.
+1) `data_collection_script_linux.py`, the python script the VM used to coordinate data collection. It is responsible for fetching a subset of websites to visit and opening Chrome with the custom extensions (in `extensions/`) installed. It was tested with Python3.8.
 
 2) `gcloud_functions`, tooling we deployed in gcloud functions to coordinate the virtual machines reading from a central file of websites to visit (`pixel_get_urls`) and uploading collected data to a gcloud bucket for storage (`pixel_upload_data`).
 
 3) `vm_configuraiton.sh`, the startup script used to install and kick off collection on a new virtual machine.
 
 ## Extensions
-This directory contains the two Chrome extensions used to collect data in this study. 
+This directory contains the two Chrome extensions used to collect data in this study. mv2 uses Chrome manifest version 2, which requires Chrome 138 or earlier. mv3 uses Chrome manifest version 3, which requires Chrome 88 or later. This study ran data collection with Chrome version 125. These extensions can be installed in two ways:
+1) Manually install: 
+
+    a) Download the extension locally.
+
+    b) Navigate to chrome://extensions in Chrome.
+
+    c) Ensure developer mode is toggled on.
+
+    d) Click the "Load unpacked" button and select the downloaded directory. Note that mv2 and mv3 need to be installed seperately. 
+
+2) The extensions can be loaded by a python script if running an automated crawl. For an example on how to do so, see the `data_collection_script_linux.py` file, lines 180-186.
+
+Once installed, the extensions will operate without additional user interaction.
 
 ## Instructions
 This codebase assumes a gcloud bucket for storage, gcloud functions for uploading data, and gcloud virtual machines for collecting data. These instructions include the information for that specific setup but other storage and compute options would also work with minor modifications.

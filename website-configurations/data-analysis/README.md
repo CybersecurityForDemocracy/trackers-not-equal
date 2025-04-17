@@ -10,6 +10,8 @@ The *requirements.txt* contains all the depdendencies that are required to run t
 pip install -r requirements.txt
 ```
 
+The analysis code has been tested with Python3.8.
+
 ## Tables
 
 The *table_i.ipynb* files generate the tables that contain results from our analysis in the paper. If you wish to compile them in a latex environment you need to include the following macros.
