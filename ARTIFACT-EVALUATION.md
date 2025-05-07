@@ -32,4 +32,4 @@ This artifact does not reproduce the analysis in its entirety.
 Please see the subdirectory README files for details on setup.
 
 ### Accessibility
-The artifacts can be accessed at this [link](https://github.com/CybersecurityForDemocracy/trackers-not-equal/tree/dce0725606f999874a2748055d31ac281b4ed030).
+The artifacts can be accessed at this [link](https://github.com/CybersecurityForDemocracy/trackers-not-equal/tree/11f90dc1711d604ea550137cf24d364c111055eb).
