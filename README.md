@@ -13,7 +13,7 @@ If you publish work based on the source code in this repository, please cite the
   author    = {Kieserman, Julia B. and Andreou, Athanasios and Geeng, Chris and Lauinger, Tobias and McCoy, Damon},
   booktitle = {Proceedings on Privacy Enhancing Technologies (PoPETs)},
   volume    = {2025},
-  issue     = {3},
+  issue     = {4},
   year      = {2025}
 }
 ```
