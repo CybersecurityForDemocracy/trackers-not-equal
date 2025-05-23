@@ -97,7 +97,7 @@ statsmodels==0.14.1
 terminado==0.18.1
 tinycss2==1.2.1
 tomli==2.2.1
-tornado==6.4.2
+tornado==6.5.1
 traitlets==5.14.3
 types-python-dateutil==2.9.0.20241206
 typing-extensions==4.12.2
